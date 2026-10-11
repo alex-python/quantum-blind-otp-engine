@@ -1,0 +1,12 @@
+# --- Core Deep Learning Framework with Apple Silicon Support ---
+# Provides the Metal Performance Shaders (MPS) accelerated backend
+torch>=2.2.0
+
+# --- High-Performance Asynchronous Web Server Stack ---
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+
+# --- Asynchronous HTTP Client for Load & Stress Testing ---
+httpx>=0.27.0
+
