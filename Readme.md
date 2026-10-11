@@ -1,6 +1,6 @@
 # High-Speed Hybrid Chaos Tokenization & Masking Engine
 
-A quantum-resistant, high-throughput data masking engine designed for Apple Silicon M1 architectures. This engine leverages a hybrid cryptography strategy—combining **True Hardware Entropy (TRNG)** seeds with parallelized **4D Lorenz-Stenflo Hyper-Chaotic Simulation**—to create dynamic, infinite, non-repeating One-Time Pads (OTP) directly in memory space. 
+A quantum-resistant, high-throughput data masking engine designed for GPU architectures. This engine leverages a hybrid cryptography strategy—combining **True Hardware Entropy (TRNG)** seeds with parallelized **4D Lorenz-Stenflo Hyper-Chaotic Simulation**—to create dynamic, infinite, non-repeating One-Time Pads (OTP) directly in memory space. 
 
 By utilizing an asynchronous, lock-free **Double-Ring Buffer Pipeline**, the engine decouples compute-heavy GPU chaotic differential loops from live execution pathways, achieving sub-millisecond data blinding at a throughput performance matching or exceeding classical SSL/TLS wire speeds.
 
